@@ -52,8 +52,7 @@
   * Deletar diretórios / arquivos:
     * Deletar diretório: `$ rm -rf Projects`
       * `-rf` = forçar a deleção de todos os subdiretórios do diretório `Projects`
-      > **rm** = (R)e(m)ove 
-      > **-rf** = (R)ecursive (F)orce
+      > **rm -rf** = (R)e(m)ove (R)ecursive (F)orce
     * Deletar arquivo(s): `> del Projects`
       * Esse comando deletará todos os arquivos presente no diretório `Projects`
       > `> del` só funciona para arquivos

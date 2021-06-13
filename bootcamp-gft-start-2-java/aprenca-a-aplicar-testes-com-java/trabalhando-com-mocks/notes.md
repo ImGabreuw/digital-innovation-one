@@ -26,4 +26,16 @@
 ### Exemplo (Mockito / JUnit 4)
 
 ```java
+@Test
+public void testeSomarComMock() {
+    // Mockit
+    Calculadora calculadora = mock(Calculadora.class);
+
+    when(calculadora.somar("1+2")).thenReturn(10);
+
+    // JUnit 4
+    int resultado = calculadora.somar("1+2");
+
+    assertEquals(10, resultado);
+}
 ```

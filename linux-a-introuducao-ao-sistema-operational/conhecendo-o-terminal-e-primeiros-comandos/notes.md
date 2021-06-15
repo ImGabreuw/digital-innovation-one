@@ -85,3 +85,45 @@
   * Visualizar o histórico de todos os programas e comandos utilizados no terminal
 
   > `$ !!` = executa o último comando do histórico do terminal
+
+* `$ mv <nome do diretório> <novo nome do diretório>`
+
+  * Renomear um arquivo/diretório
+
+  * Exemplo: `$ mv Teste Linux`
+
+* `$ mv <nome do diretório> <diretório destino>`
+
+  * Mover um arquivo/diretório
+
+  * Exemplo: `$ mv Linux ~`
+
+* `$ touch <nome do arquivo>`
+
+  * Criar arquivos vazios
+
+  * Exemplo: `$ teste.txt`
+
+* `$ cp <nome do arquivo> <diretório destino>`
+
+  * Copiar um arquivo
+
+  * Exemplo: `$ cp teste.txt ~`
+
+* `$ clear`
+
+  * Limpar a tela do terminal
+
+  * Exemplo: `$ clear`
+
+* `$ rm -r <nome do diretório>` ou `$ rmdir <nome do diretório>`
+
+  * Remover um diretório
+
+  * Exemplo: `$ rmdir Teste`
+
+* `$ rm <nome do arquivo>`
+
+  * Remover um arquivo
+
+  * Exemplo: `$ rm teste.txt`

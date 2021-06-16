@@ -58,3 +58,5 @@
   * `$ find <diretório> -name <nome do arquivo>`
 
   * **Exemplo**: `$ find ~ -name maio.txt`
+
+### [GuiaFoca](https://www.guiafoca.org/)

@@ -24,7 +24,7 @@
 
 * `$ uptime`
 
-  * Mostrar o tempo que o sistema está rodando
+  * Mostrar informações de carregamento do sistema
 
   * **Exemplo**: `uptime`
 

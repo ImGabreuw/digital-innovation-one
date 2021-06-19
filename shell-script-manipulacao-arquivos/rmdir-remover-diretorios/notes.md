@@ -1,4 +1,4 @@
-# diff - Comparar diferença entre arquivos
+# rmdir - Remover diretório
 
 * **rmdir** = (R)e(M)ove (DIR)ectory
 
@@ -9,3 +9,9 @@
   * `$ rmdir` = remover diretório vazio
 
   * `$ rm -rf` = remover diretório com conteúdo
+
+* **Exemplo**
+
+  * `$ rmdir diretorio_vazio`
+
+  * `$ rm -rf diretorio_com_conteudo`

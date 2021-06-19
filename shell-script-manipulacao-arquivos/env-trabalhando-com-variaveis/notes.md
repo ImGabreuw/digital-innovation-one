@@ -12,6 +12,8 @@
 
   * `$<chave da variável de ambiente>` = utilizar uma variável de ambiente
 
+  * `$ env` = exibir todas as variáveis de ambientes
+
 * **Exemplo**
 
   * **PS1** = prompt da linha de comando

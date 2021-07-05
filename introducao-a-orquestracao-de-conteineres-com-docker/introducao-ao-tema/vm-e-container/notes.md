@@ -10,7 +10,7 @@
 
   * Custo elevado (1 aplicação = 1 servidor)
 
-  * Escalonamento vertical
+  * Escalonamento vertical (ação de aumentar os recursos utilizados como CPU e Memória)
 
   * Difícil atualização + _downtime_ elevado
 
@@ -44,7 +44,7 @@
 
     * Controle de memória e CPU para cada _container_
 
-    * Escalonamento horizontal
+    * Escalonamento horizontal (ação de adicionar mais nós (VM/Container) de um sistema)
 
     * Atualização facilitada + sem _downtime_
 

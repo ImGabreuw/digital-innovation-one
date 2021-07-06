@@ -4,7 +4,7 @@
 
 * **Criar um _container_ com nome personalizado**: `$ docker run --name <nome> <imagem>`
 
-* **Criar um _container_ com binding de portas**: `$ docker run <imagem> -p <porta máquina local>:<porta container>`
+* **Criar um _container_ com binding de portas**: `$ docker run <imagem> -p <porta máquina local>:<porta container>` ou ` docker run <imagem> --publish <porta máquina local>:<porta container>`
 
 * **Visualizar informações do Docker**: `$ docker info`
 
@@ -25,3 +25,5 @@
 * **Exportar um arquivo do sistema de um _container_ como arquivo compactado**: `$ docker export <container> > <nome do arquivo compactado>`
 
 * **Importar um arquivo do sistema de um container para outro**: `$ docker import - <nome>`
+
+* **Verificar quais volumes etá montado em um _container_**: `$ docker inspect <container>`

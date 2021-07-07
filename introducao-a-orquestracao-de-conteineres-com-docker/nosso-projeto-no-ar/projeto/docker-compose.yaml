@@ -1,0 +1,36 @@
+version: '3'
+
+services:
+  database:
+    container_name: mongo-server
+    image: mongo
+    restart: always
+    environment: 
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=123qwe
+    volumes:
+    # Definir as configurações do volume
+    - type: volume
+      source: db-volume
+      target: /data/db
+
+  app:
+    container_name: app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - database
+    environment: 
+      - DATABASE_USER=admin
+      - DATABASE_PASSWORD=123qwe
+      - DATABASE_HOST_NAME=mongo-server
+      - DATABASE_PORT=27017
+      - DATABASE_NAME=mydata
+      - WAIT_HOSTS=database:27017
+    ports:
+      - 8080:8080
+
+# Volumes que precisam ser criados
+volumes:
+  db-volume:

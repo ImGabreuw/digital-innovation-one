@@ -37,4 +37,4 @@
 
 ### Biblioteca ipaddress
 
-* É possível criar/manipular endereços IP do ipo IPv4, IPv6 e redes inteiras
+* É possível **criar/manipular endereços IP** do ipo IPv4, IPv6 e redes inteiras

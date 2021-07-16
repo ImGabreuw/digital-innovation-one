@@ -1,7 +1,5 @@
-# Biblioteca phonenumbers
+# Biblioteca ctypes
 
-* Fornece vários recursos, como:
+* Fornece tipos de dados compatíveis com C
 
-  * Informações básicas de um número de telefone
-
-  * Validação de um número de telefone
+* Permite funções de chamada em DLLs ou bibliotecas compartilhadas
